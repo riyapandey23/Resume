@@ -1,151 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Riya H.S. Pandey | Data Analytics Resume</title>
+
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 20px auto;
-            max-width: 800px;
-            padding: 0 20px;
-            line-height: 1.6;
-            color: #333;
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
         }
-        h1 {
-            /* Updated CSS for H1 */
-            color: #000;
-            border-bottom: 2px solid #000;
-            padding-bottom: 5px;
-            text-align: center; /* Centers the H1 text */
+
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background:#f5f7fa;
+            color:#222;
+            line-height:1.7;
+            padding:40px 20px;
         }
-        h2 {
-            color: #000;
-            border-bottom: 2px solid #000;
-            padding-bottom: 5px;
+
+        .resume-container{
+            max-width:900px;
+            margin:auto;
+            background:white;
+            padding:40px;
+            border-radius:12px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.08);
         }
-        h3 {
-            margin-bottom: 0;
-            margin-top: 20px;
+
+        h1{
+            text-align:center;
+            font-size:42px;
+            color:#111;
+            margin-bottom:10px;
+            letter-spacing:1px;
         }
-        .contact-info {
-            /* Updated CSS for contact-info */
-            text-align: center; /* Centers the content */
-            font-size: 0.9em;
-            margin-bottom: 20px;
+
+        .contact-info{
+            text-align:center;
+            margin-bottom:30px;
+            font-size:15px;
+            color:#555;
         }
-        .contact-info span {
-            /* Adds space between the items */
-            margin: 0 10px; 
-            display: inline-block;
+
+        .contact-info a{
+            color:#0077b5;
+            text-decoration:none;
+            font-weight:600;
+            transition:0.3s;
         }
-        .section-content {
-            margin-bottom: 20px;
+
+        .contact-info a:hover{
+            color:#000;
         }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
+
+        section{
+            margin-bottom:35px;
         }
-        li {
-            margin-bottom: 5px;
+
+        h2{
+            font-size:24px;
+            color:#111;
+            margin-bottom:15px;
+            padding-bottom:8px;
+            border-bottom:2px solid #000;
         }
-        .project-details {
-            font-size: 0.9em;
-            color: #666;
-            margin-top: 5px;
+
+        p{
+            margin-bottom:10px;
+        }
+
+        ul{
+            padding-left:20px;
+        }
+
+        li{
+            margin-bottom:10px;
+        }
+
+        .skill-category{
+            margin-bottom:12px;
+        }
+
+        .project{
+            margin-bottom:25px;
+            padding:18px;
+            border-radius:10px;
+            background:#fafafa;
+            border-left:4px solid #000;
+            transition:0.3s;
+        }
+
+        .project:hover{
+            transform:translateY(-3px);
+            box-shadow:0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .project h3{
+            margin-bottom:8px;
+            color:#111;
+        }
+
+        .project-tech{
+            font-size:14px;
+            color:#666;
+            margin-bottom:10px;
+        }
+
+        .education-item{
+            margin-bottom:15px;
+        }
+
+        .badge{
+            display:inline-block;
+            padding:6px 12px;
+            background:#111;
+            color:white;
+            border-radius:30px;
+            font-size:13px;
+            margin:5px;
+        }
+
+        @media(max-width:768px){
+
+            body{
+                padding:20px 10px;
+            }
+
+            .resume-container{
+                padding:25px;
+            }
+
+            h1{
+                font-size:32px;
+            }
+
+            h2{
+                font-size:20px;
+            }
+
         }
     </style>
 </head>
+
 <body>
 
-    <h1>Riya H.S. Pandey</h1>
-    <div class="contact-info">
-        <span>9321686719</span>
-        <span>riyapandey3764@gmail.com</span>
-        <span>Kalyan, Maharashtra</span>
-    </div>
+    <div class="resume-container">
 
-    <section class="section-content">
-        <h2>Objective</h2>
-        <p>
-            Highly motivated Master of Data Analytics (MSc.DA) student with a strong foundation in high-performance computing concepts, algorithms, and data processing. Seeking a Data Processing Developer Technology Intern role to apply expertise in performance optimization and robust software development to large-scale computational challenges. Known for a logical approach to problem-solving, effective communication, and efficient time management.
-        </p>
-    </section>
+        <h1>Riya H.S. Pandey</h1>
 
-    <section class="section-content">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li><strong>Programming:</strong> Python, SQL, MongoDB</li>
-            <li><strong>Visualization:</strong> Numpy, Seaborn, Matplotlib</li>
-            <li><strong>Tools:</strong> Tableau, Power BI, Jupyter Notebook, Git, Github</li>
-        </ul>
-    </section>
+        <div class="contact-info">
+            📞 9321686719 |
+            ✉️ riyapandey3764@gmail.com |
+            📍 Kalyan, Maharashtra
+            <br><br>
 
-    <section class="section-content">
-        <h2>Key Projects & Experience</h2>
-        <h3>Data Career Insights Dashboard</h3>
-        <ul>
-          <li>An interactive Power BI dashboard analyzing 39K+ data job postings to reveal trends in roles, skills, locations, and salaries. Includes visual insights like posting timelines, skill heatmaps, and salary benchmark ideal for job seekers and recruiters.</li>
-        </ul>
-        
-        <h3>Global Data Processing & Visualization Projects</h3>
-        <ul>
-            <li>Conducted factory downtime analysis, job market analytics, and pay distribution analysis.</li>
-        </ul>
-        
-         <h3>Power BI Visualization Projects</h3>
-        <ul>
-            <li>Created dashboards for job counts, salaries, global trends, and comparisons.</li>
-        </ul>
-        <h3>Facial Golden Ratio Detection</h3>
-        <p class="project-details"><em>(Python, Google Colab, Data Visualization)</em></p>
-        <ul>
-            <li>Developed a project to detect facial proportions and visualize symmetry metrics.</li>
-        </ul>
+            <a href="https://github.com/riyapandey23" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/riya-pandey-072639249/" target="_blank">LinkedIn</a> |
+            <a href="https://riyapandey23.github.io/PortfolioHost/" target="_blank">Portfolio</a>
 
-        <h3>Power BI Visualization Projects</h3>
-        <ul>
-            <li>Created dashboards for job counts, salaries, global trends, and comparisons.</li>
-        </ul>
+        </div>
 
-        <h3>Route Optimization System</h3>
-        <ul>
-            <li>Created a shortest-time route prediction model using ML logic and optimized algorithms.</li>
-        </ul>
-        
-    </section>
+        <!-- OBJECTIVE -->
 
-    <section class="section-content">
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <strong>Masters of Data Analytics (MSc.DA)</strong> – Pursuing<br>
-                University of Mumbai, Kalina - Kurla
-            </li>
-            <li>
-                <strong>Bachelor of Science (B.Sc. IT)</strong> (Aug 2022 – May 2025) CGPA: 8.75<br>
+        <section>
+
+            <h2>Objective</h2>
+
+            <p>
+                Aspiring Data Analyst and MSc Data Analytics student with strong interest in
+                data visualization, analytics, consumer behavior analysis, and business intelligence.
+                Skilled in Python, SQL, Power BI, and Tableau with experience building
+                real-world analytical dashboards and machine learning-based projects.
+                Passionate about transforming raw data into meaningful insights that support
+                strategic decision-making.
+            </p>
+
+        </section>
+
+        <!-- TECHNICAL SKILLS -->
+
+        <section>
+
+            <h2>Technical Skills</h2>
+
+            <div class="skill-category">
+                <strong>Programming:</strong>
+                <span class="badge">Python</span>
+                <span class="badge">SQL</span>
+                <span class="badge">MongoDB</span>
+                <span class="badge">Pandas</span>
+            </div>
+
+            <div class="skill-category">
+                <strong>Visualization & Processing:</strong>
+                <span class="badge">Power BI</span>
+                <span class="badge">Tableau</span>
+                <span class="badge">Matplotlib</span>
+                <span class="badge">Seaborn</span>
+                <span class="badge">Excel</span>
+            </div>
+
+            <div class="skill-category">
+                <strong>Tools:</strong>
+                <span class="badge">Git</span>
+                <span class="badge">GitHub</span>
+                <span class="badge">Jupyter Notebook</span>
+                <span class="badge">Docker</span>
+            </div>
+
+            <div class="skill-category">
+                <strong>Concepts:</strong>
+                Data Cleaning, Data Wrangling, Exploratory Data Analysis,
+                Data Modelling, Consumer Behavior Analysis
+            </div>
+
+        </section>
+
+        <!-- PROJECTS -->
+
+        <section>
+
+            <h2>Key Projects & Experience</h2>
+
+            <div class="project">
+
+                <h3>Movie Recommendation System</h3>
+
+                <div class="project-tech">
+                    Python • Pandas • Machine Learning
+                </div>
+
+                <ul>
+                    <li>
+                        Built a content-based movie recommendation system using
+                        Python and Pandas.
+                    </li>
+
+                    <li>
+                        Performed data cleaning, feature extraction,
+                        and similarity analysis.
+                    </li>
+
+                    <li>
+                        Generated personalized movie recommendations
+                        based on user preferences.
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="project">
+
+                <h3>Power BI Job Market Dashboard</h3>
+
+                <div class="project-tech">
+                    Power BI • Data Visualization • Analytics
+                </div>
+
+                <ul>
+                    <li>
+                        Developed an interactive dashboard analyzing
+                        2024 global job trends and salary insights.
+                    </li>
+
+                    <li>
+                        Visualized over 479K job postings using charts,
+                        maps, and trend analysis.
+                    </li>
+
+                    <li>
+                        Identified top-paying roles, in-demand skills,
+                        and hiring patterns across countries.
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="project">
+
+                <h3>Facial Golden Ratio Detection</h3>
+
+                <div class="project-tech">
+                    Python • Computer Vision • Data Visualization
+                </div>
+
+                <ul>
+                    <li>
+                        Developed a system to analyze facial proportions
+                        using mathematical symmetry ratios.
+                    </li>
+
+                    <li>
+                        Applied visualization techniques to display
+                        facial symmetry metrics.
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="project">
+
+                <h3>Route Optimization System</h3>
+
+                <div class="project-tech">
+                    Machine Learning • Optimization • Algorithms
+                </div>
+
+                <ul>
+                    <li>
+                        Designed a shortest-time travel prediction system
+                        using optimized routing logic.
+                    </li>
+
+                    <li>
+                        Improved travel efficiency using analytical
+                        problem-solving techniques.
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="project">
+
+                <h3>Customer Purchase Behavior Analysis</h3>
+
+                <div class="project-tech">
+                    Excel • Pivot Tables • Data Analytics
+                </div>
+
+                <ul>
+                    <li>
+                        Analyzed customer purchase data to identify
+                        behavioral and spending patterns.
+                    </li>
+
+                    <li>
+                        Built dashboards and Pivot Table reports
+                        for business insights.
+                    </li>
+
+                    <li>
+                        Identified VIP customers contributing major
+                        revenue share.
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- EDUCATION -->
+
+        <section>
+
+            <h2>Education</h2>
+
+            <div class="education-item">
+                <strong>Master of Science in Data Analytics (Pursuing)</strong>
+                <br>
+                University of Mumbai, Kalina
+            </div>
+
+            <div class="education-item">
+                <strong>Bachelor of Science in Information Technology</strong>
+                <br>
                 Model College of Science and Commerce, Kalyan
-            </li>
-        </ul>
-    </section>
+                <br>
+                CGPA: 8.75
+            </div>
 
-    <section class="section-content">
-        <h2>Certifications & Trainings</h2>
-        <ul>
-            <li>Data Analytics Job Simulation (Deloitte/Forage): Practical tasks in data analysis and forensic technology.</li>
-            <li>Research Methodology Course (Udemy): Training in structured research techniques.</li>
-            <li>Cloud Computing Intern (iFuture): Hands-on experience with cloud services and security.</li>
-        </ul>
-    </section>
+        </section>
 
-    <section class="section-content">
-        <h2>Strengths</h2>
-        <ul>
-            <li>Logical Problem Solving: Strong reasoning abilities, time management, and prioritization.</li>
-            <li>Communication: Confident presenter with strong research-based documentation skills.</li>
-        </ul>
-    </section>
+        <!-- CERTIFICATIONS -->
+
+        <section>
+
+            <h2>Certifications & Training</h2>
+
+            <ul>
+
+                <li>
+                    Data Analytics Job Simulation – Deloitte (Forage)
+                </li>
+
+                <li>
+                    Cloud Computing Internship – iFuture
+                </li>
+
+                <li>
+                    Research Methodology Course – Udemy
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- STRENGTHS -->
+
+        <section>
+
+            <h2>Strengths</h2>
+
+            <ul>
+
+                <li>
+                    Strong analytical and problem-solving skills
+                </li>
+
+                <li>
+                    Effective communication and presentation abilities
+                </li>
+
+                <li>
+                    Quick learner with ability to work independently
+                    and adapt to new technologies
+                </li>
+
+            </ul>
+
+        </section>
+
+    </div>
 
 </body>
 </html>
